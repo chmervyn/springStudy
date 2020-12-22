@@ -4,4 +4,6 @@ public interface CompactDisc {
 
     void play();
 
+    default void playTrack(int trackNumber) {}
+
 }
